@@ -1,0 +1,120 @@
+@import './navbar.scss';
+
+
+.showcase {
+    background:#F3F3F3;
+    font-family: 'Open Sans', sans-serif; 
+    color:rgb(82, 80, 80);
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end
+    // @media only screen and (min-width:1224px){
+    //     background-color: white;
+    //     background-image: url("../images/header.jpg");
+    //     background-size: contain;
+    //     background-repeat: no-repeat;
+    //     height: 100vh;
+    //     width: 100vw;
+    //     display: grid;
+    //     grid-template-columns: repeat(21 , 1fr);
+    //     grid-template-rows: repeat(15, 1fr);  
+    //     grid-gap: 0.7rem;
+    //     position: relative;
+    // }  
+}
+header {
+    background-color:#F3F3F3;
+
+}
+
+.maintext {
+    font-size: 2rem;
+    color:rgb(82, 80, 80);
+    z-index: 1;
+    margin-bottom: 3rem;
+    margin-top: 1.4rem;
+    line-height: 2;
+}
+button {
+        background-color: white;
+        border: solid 1px rgb(82, 80, 80);
+        font-size: 1em;
+        color:rgb(82, 80, 80);
+        padding:0.6em;
+        margin: 1em;
+        width: 10rem;
+        transition-duration: 0.5s;
+    
+    }
+    button:hover {
+        background-color: yellow;
+        color:black;
+        border:solid 1px black;
+    }
+.containerOne {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+// ul {
+//     @media only screen and (min-width:1224px){
+//     a {
+//         border: solid 1px transparent;
+//         display: inline-block;
+//         padding: 0.8rem;
+    
+//     }
+//     a:hover {
+//         border: solid 1px black;
+//     }
+// }
+// }
+// .admin {
+//     grid-column: 16/20; 
+//     grid-row: 2/3
+// }
+// .Nav {
+
+//     grid-row: 3/4;
+//     grid-column: 11/20;
+// }
+
+// .maintext {
+//     text-align: center;
+//     font-size: 1.6em;
+//     grid-row: 7/10;
+//     grid-column: 12/20;
+//     font-weight: 10;
+    
+// }
+// .decor {
+//     grid-column: 14/18;
+//     grid-row: 10/11
+// }
+
+// button {
+//     background-color: white;
+//     border: solid 1px dimgrey;
+//     font-size: 1em;
+//     color:dimgray;
+// }
+// button:hover {
+//     color:black;
+//     border:solid 1px black;
+// }
+
+// .butOne {
+//     grid-column: 13/16;
+//     grid-row: 11/13;
+// }
+// .butTwo {
+//     grid-column: 16/19;
+//     grid-row: 11/13
+// }
+
