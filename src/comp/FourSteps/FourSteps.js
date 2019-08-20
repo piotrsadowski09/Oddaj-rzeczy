@@ -1,6 +1,8 @@
 import React from "react";
 
 
+
+
 class FourSteps extends React.Component {
   render() {
     const fourSteps = [
@@ -28,16 +30,16 @@ class FourSteps extends React.Component {
 
     const boxesWithFourSteps = fourSteps.map((e, i) => {
       return (
-        <div key={i} className="four-steps-container__box">
+        <div key={i} className="foursteps">
           <i className={e.icon} />
-          <h1>{e.title}</h1>
-          <p>{e.articles}</p>
+          <h3 className={"text"}>{e.title}</h3>
+          <p className={"description"}>{e.articles}</p>
         </div>
       );
     });
 
     return (
-        <div className="four-steps-container__boxes">
+        <div className={"fourContainer"}>
         {boxesWithFourSteps}
         </div>
     );

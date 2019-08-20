@@ -8,8 +8,8 @@ class Four extends React.Component {
     
     render() {
         return (
-            <div>
-                <h2>Wystarcza 4 proste kroki !</h2>
+            <div className="four-steps-container">
+                <p className={"fourstepstext"}>Wystarcza 4 proste kroki !</p>
                 <div className={"decor"}></div>
                 <FourSteps />
                 <button type="button">Zaloz konto</button>
