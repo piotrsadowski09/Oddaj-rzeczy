@@ -7,11 +7,11 @@ class AboutUs extends React.Component {
     
     render() {
         return (
-            <div>
-                <h2>O nas</h2>
+            <div className={"aboutUs_container"}>
+                <p className={"aboutUs_title"}>O nas</p>
                 <div className={"decor"}></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nibh imperdiet, mollis metus sit amet, ornare quam. Sed malesuada tincidunt sapien.</p>
-                <div>Photo of people</div>
+                <p className={"aboutUs_text"}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nibh imperdiet, mollis metus sit amet, ornare quam. Sed malesuada tincidunt sapien.</p>
+                <div className={"aboutUs_image"}>Photo of people</div>
             </div>
         )
     }
