@@ -29,17 +29,17 @@ class HelpInfo extends React.Component {
         ]
         const orgs = organisations.map((e, i) => {
             return (
-              <div onClick={this.handleClick}
+              <div className={"foundations"} onClick={this.handleClick}
                 key={i}> {e}
               </div>
             );
           });
         return (
-            <div>
-                <h2>Komu pomagamy?</h2>
+            <div className={"foundations_box"}>
+                <p className={"foundations_title"}>Komu pomagamy?</p>
                 <div className={"decor"}></div>
-                <div>{orgs}</div>
-                <p>W naszej bazie znajdziesz liste zweryfikowanych Fundacji, z ktorymi wspolpracujemy. Mozesz sprawdzic czym sie zajmuja, komu pomagaja i czego potrzebuja.</p>
+                <div className={"foundations_cont"}>{orgs}</div>
+                <p className={"foundations_text"}>W naszej bazie znajdziesz liste zweryfikowanych Fundacji, z ktorymi wspolpracujemy. Mozesz sprawdzic czym sie zajmuja, komu pomagaja i czego potrzebuja.</p>
                 <div className={"Five_container"}>
                   <div className={"Left_con"}>
                   <div id="foundations">
@@ -56,14 +56,14 @@ class HelpInfo extends React.Component {
                     </div>
                     <div className={"Right_con"}>
                       
-                    <p>Ubrania, jedzenie, sprzet RTV AGD, meble, zabawki.</p>
-                    <hr align="right"/>
+                    <p className={"stuff_description"}>Ubrania, jedzenie, sprzet RTV AGD, meble, zabawki.</p>
+                    <hr className={"stuff_underline"} align="right"/>
                     
-                    <p>Ubrania, meble, zabawki.</p>
-                    <hr align="right"/>
+                    <p className={"stuff_description"}>Ubrania, meble, zabawki.</p>
+                    <hr className={"stuff_underline"} align="right"/>
                     
-                    <p>Ubrania, jedzenie, cieple koce.</p>
-                    <hr align="right"/>
+                    <p className={"stuff_description"}>Ubrania, jedzenie, cieple koce.</p>
+                    <hr className={"stuff_underline"} align="right"/>
                     </div>
                 </div>
                 <div id="organisations" className={"hidden"}>
@@ -80,14 +80,14 @@ class HelpInfo extends React.Component {
                     </div>
                     <div className={"Right_con"}>
                         
-                      <p>Lorem ipsum ipsum lorem.</p>
-                      <hr align="right"/>
+                      <p className={"stuff_description"}>Lorem ipsum ipsum lorem.</p>
+                      <hr className={"stuff_underline"} align="right"/>
                     
-                      <p>Sed ut perspiciatis unde omnis iste.</p>
-                      <hr align="right"/>
+                      <p className={"stuff_description"}>Sed ut perspiciatis unde omnis iste.</p>
+                      <hr className={"stuff_underline"} align="right"/>
                       
-                      <p>Lorem ipsum ipsum lorem.</p>
-                      <hr align="right"/>
+                      <p className={"stuff_description"}>Lorem ipsum ipsum lorem.</p>
+                      <hr className={"stuff_underline"} align="right"/>
                     </div>
                 </div>
                 <div id="local" className={"hidden"}>
@@ -103,18 +103,17 @@ class HelpInfo extends React.Component {
                     <hr align="left"/>
                   </div>
                   <div className={"Right_con"}>
-                      <p>Nemo enim ipsam voluptatem quia.</p>
-                      <hr align="right"/>
+                      <p className={"stuff_description"}>Nemo enim ipsam voluptatem quia.</p>
+                      <hr className={"stuff_underline"} align="right"/>
                     
-                      <p>Quis autem vel eum iure reprehenderit.</p>
-                      <hr align="right"/>
+                      <p className={"stuff_description"}>Quis autem vel eum iure reprehenderit.</p>
+                      <hr className={"stuff_underline"} align="right"/>
               
-                      <p>Consequuntur magni dolores eos.</p>
-                      <hr align="right"/>
+                      <p className={"stuff_description"}>Consequuntur magni dolores eos.</p>
+                      <hr className={"stuff_underline"} align="right"/>
                   </div>
                 </div>
                 </div>
-
               </div>
             
 
