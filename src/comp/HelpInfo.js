@@ -41,17 +41,17 @@ class HelpInfo extends React.Component {
                 <div className={"foundations_cont"}>{orgs}</div>
                 <p className={"foundations_text"}>W naszej bazie znajdziesz liste zweryfikowanych Fundacji, z ktorymi wspolpracujemy. Mozesz sprawdzic czym sie zajmuja, komu pomagaja i czego potrzebuja.</p>
                 <div className={"Five_container"}>
-                  <div className={"Left_con"}>
+                  <div className={"left_con"}>
                   <div id="foundations">
-                    <div className={"Left_con"}>
-                      <p>Fundacja "Dbam o Zdrowie"</p>
-                      <p>Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej</p>
+                    <div className={"left_con"}>
+                      <p className={"foundations_name"}>Fundacja "Dbam o Zdrowie"</p>
+                      <p className={"foundations_goals"}>Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej</p>
                       <hr align="left"/>
-                      <p>Fundacja "Dla dzieci"</p>
-                      <p>Cel i misja: Pomoc dzieciom z ubogich rodzin.</p>
+                      <p className={"foundations_name"}>Fundacja "Dla dzieci"</p>
+                      <p className={"foundations_goals"}>Cel i misja: Pomoc dzieciom z ubogich rodzin.</p>
                       <hr align="left"/>
-                      <p>Fundacja "Bez domu"</p>
-                      <p>Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.</p>
+                      <p className={"foundations_name"}>Fundacja "Bez domu"</p>
+                      <p className={"foundations_goals"}>Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.</p>
                       <hr align="left"/>
                     </div>
                     <div className={"Right_con"}>
@@ -67,15 +67,15 @@ class HelpInfo extends React.Component {
                     </div>
                 </div>
                 <div id="organisations" className={"hidden"}>
-                    <div className={"Left_con"}>
-                      <p>Organizacja "O zdrowie dbam"</p>
-                      <p>Cel i misja: Lorem ipsum spsum lorem.</p>
+                    <div className={"left_con"}>
+                      <p className={"foundations_name"}>Organizacja "O zdrowie dbam"</p>
+                      <p className={"foundations_goals"}>Cel i misja: Lorem ipsum ipsum spsum lorem Lorem ipsum spsum.</p>
                       <hr align="left"/>
-                      <p>Organizacja "Dzieci dla"</p>
-                      <p>Cel i misja: Lorem ipsum lorem lorem.</p>
+                      <p className={"foundations_name"}>Organizacja "Dzieci dla"</p>
+                      <p className={"foundations_goals"}>Cel i misja: Lorem ipsum ipsum Lorem ipsum spsum lorem lorem.</p>
                       <hr align="left"/>
-                      <p>Organizacja "Domu bez"</p>
-                      <p>Cel i misja: Lorem ipsum lorem lorem.</p>
+                      <p className={"foundations_name"}>Organizacja "Domu bez"</p>
+                      <p className={"foundations_goals"}>Cel i misja: Lorem Lorem ipsum ipsum spsum ipsum lorem lorem.</p>
                       <hr align="left"/>
                     </div>
                     <div className={"Right_con"}>
@@ -91,15 +91,15 @@ class HelpInfo extends React.Component {
                     </div>
                 </div>
                 <div id="local" className={"hidden"}>
-                  <div className={"Left_con"}>
-                    <p>Lokalna zbiorka w Warszawie</p>
-                    <p>Cel i misja: Lorem ipsum spsum lorem.</p>
+                  <div className={"left_con"}>
+                    <p className={"foundations_name"}>Lokalna zbiorka w Warszawie</p>
+                    <p className={"foundations_goals"}>Cel i misja: Lorem ipsum Lorem ipsum spsum ipsum spsum lorem.</p>
                     <hr align="left"/>
-                    <p>Lokalna zbiorka W Lodzi</p>
-                    <p>Cel i misja: Lorem ipsum lorem lorem.</p>
+                    <p className={"foundations_name"}>Lokalna zbiorka W Lodzi</p>
+                    <p className={"foundations_goals"}>Cel i misja: Lorem ipsum Lorem ipsum spsum ipsum lorem lorem.</p>
                     <hr align="left"/>
-                    <p>Lokalna zbiorka w Krakowie</p>
-                    <p>Cel i misja: Lorem ipsum lorem lorem.</p>
+                    <p className={"foundations_name"}>Lokalna zbiorka w Krakowie</p>
+                    <p className={"foundations_goals"}>Cel i misja: Lorem ipsum lorem ipsum Lorem ipsum spsum lorem.</p>
                     <hr align="left"/>
                   </div>
                   <div className={"Right_con"}>

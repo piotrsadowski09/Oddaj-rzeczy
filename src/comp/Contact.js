@@ -33,7 +33,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <h2>Skontaktuj sie z nami !</h2>
-                <div className={"dekor"}></div>
+                <div className={"decor"}></div>
                 <p>Formularz kontaktowy</p>
                 <input type="text" placeholder="Imie" value={this.state.name} onChange={this.onNameChange}/>
                 <input type="email" placeholder="E-mail" value={this.state.email} onChange={this.onEmailChange}/>

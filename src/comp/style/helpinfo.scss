@@ -1,4 +1,5 @@
 .foundations_title {
+    font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color:rgb(82, 80, 80);
     line-height: 2;
@@ -63,4 +64,13 @@
     text-align: center;
     padding: 1em 0;
     margin:2em;
+}
+.foundations_name {
+    color:#3D3D3D;
+    font-size: 1.3em;
+}
+.foundations_goals {
+    color:rgb(82, 80, 80);
+    font-style: italic;
+    margin-bottom: 1em;
 }
