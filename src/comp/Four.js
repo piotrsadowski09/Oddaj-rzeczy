@@ -8,7 +8,7 @@ class Four extends React.Component {
     
     render() {
         return (
-            <div className="four-steps-container">
+            <div id="fourStepsInfo" className="four-steps-container">
                 <p className={"fourstepstext"}>Wystarcza 4 proste kroki</p>
                 <div className={"decor"}></div>
                 <FourSteps />

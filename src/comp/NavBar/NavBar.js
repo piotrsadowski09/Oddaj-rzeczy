@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-scroll";
 
 
 
@@ -15,11 +16,51 @@ class NavBar extends React.Component {
                         <div>
                             <div>
                                 <ul className={"Nav"}>
-                                    <li><a>Start</a></li>
-                                    <li><a>O co chodzi?</a></li>
-                                    <li><a>O nas</a></li>
-                                    <li><a>Fundacje i organizacje</a></li>
-                                    <li><a>Kontakt</a></li>
+                                    <Link
+                                    activeClass="active"
+                                    to="header"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration= {500}
+                                    > <li>Start</li>
+                                    </Link>
+                                    <Link
+                                    activeClass="active"
+                                    to="fourStepsInfo"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration= {500}
+                                    > <li>O co chodzi?</li>
+                                    </Link>
+                                    <Link
+                                    activeClass="active"
+                                    to="aboutUs"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration= {500}
+                                    > <li>O nas</li>
+                                    </Link>
+                                    <Link
+                                    activeClass="active"
+                                    to="helpInfo"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration= {500}
+                                    > <li>Fundacje i organizacje</li>
+                                    </Link>
+                                    <Link
+                                    activeClass="active"
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration= {500}
+                                    >  <li>Kontakt</li>
+                                    </Link>   
                                 </ul> 
                             </div>
                         </div>

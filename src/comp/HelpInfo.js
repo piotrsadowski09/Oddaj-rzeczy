@@ -35,7 +35,7 @@ class HelpInfo extends React.Component {
             );
           });
         return (
-            <div className={"foundations_box"}>
+            <div id="helpInfo" className={"foundations_box"}>
                 <p className={"foundations_title"}>Komu pomagamy?</p>
                 <div className={"decor"}></div>
                 <div className={"foundations_cont"}>{orgs}</div>

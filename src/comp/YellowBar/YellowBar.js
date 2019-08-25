@@ -33,7 +33,7 @@ class YellowBar extends React.Component {
       );
     });
 
-    return <div className="stats-container">{YellowStats}</div>;
+    return <div id="yellowInfo" className="stats-container">{YellowStats}</div>;
   }
 }
 

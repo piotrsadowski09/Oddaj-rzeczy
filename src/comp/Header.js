@@ -11,7 +11,7 @@ class Header extends React.Component {
         return (
           <>
             
-            <div className={"showcase"}>
+            <div id="header" className={"showcase"}>
                 <NavBar />
             </div>
             <header>    

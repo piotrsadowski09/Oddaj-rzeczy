@@ -31,13 +31,13 @@ class Contact extends React.Component {
     
     render() {
         return (
-            <div>
-                <h2>Skontaktuj sie z nami !</h2>
+            <div id="contact" className={"contactUs_box"}>
+                <p className={"contactUs"}>Skontaktuj sie z nami </p>
                 <div className={"decor"}></div>
-                <p>Formularz kontaktowy</p>
-                <input type="text" placeholder="Imie" value={this.state.name} onChange={this.onNameChange}/>
-                <input type="email" placeholder="E-mail" value={this.state.email} onChange={this.onEmailChange}/>
-                <input type="text" placeholder="Wiadomosc" value={this.state.Message} onChange={this.MessageChange}/>
+                <p className={"contactUs_info"}>Formularz kontaktowy</p>
+                <input className={"contactUs_input"} type="text" placeholder="Imie" value={this.state.name} onChange={this.onNameChange}/>
+                <input className={"contactUs_input"} type="email" placeholder="E-mail" value={this.state.email} onChange={this.onEmailChange}/>
+                <input className={"contactUs_input"} type="text" placeholder="Wiadomosc" value={this.state.Message} onChange={this.MessageChange}/>
                 <button onSubmit={this.onFormSubmit}>Wyslij</button>
                
             </div>
