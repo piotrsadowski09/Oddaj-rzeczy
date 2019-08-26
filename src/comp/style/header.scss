@@ -8,33 +8,37 @@
     height: 60px;
     position: relative;
     display: flex;
-    justify-content: flex-end
-    // @media only screen and (min-width:1224px){
-    //     background-color: white;
-    //     background-image: url("../images/header.jpg");
-    //     background-size: contain;
-    //     background-repeat: no-repeat;
-    //     height: 100vh;
-    //     width: 100vw;
-    //     display: grid;
-    //     grid-template-columns: repeat(21 , 1fr);
-    //     grid-template-rows: repeat(15, 1fr);  
-    //     grid-gap: 0.7rem;
-    //     position: relative;
-    // }  
+    justify-content: flex-end;
+    @media only screen and (min-width:1224px){
+        display: none;
+    } 
 }
 header {
     background-color:#F3F3F3;
+    @media only screen and (min-width:1224px){
+        background-color: white;
+        background-image: url("../images/header.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }  
 
 }
 
 .maintext {
     font-size: 2rem;
     color:rgb(82, 80, 80);
-    z-index: 1;
     margin-bottom: 2rem;
     margin-top: 1.4rem;
     line-height: 2;
+    @media only screen and (min-width:1224px){
+        text-align: center;
+        font-size: 1.8em;
+        grid-row: 6/9;
+        grid-column: 13/21;
+        font-weight: 100;
+    }
 }
 button {
         background-color: white;
@@ -45,7 +49,12 @@ button {
         margin: 1em;
         width: 10rem;
         transition-duration: 0.49s;
-    
+        @media only screen and (min-width:1224px){
+            background-color: white;
+            border: solid 1px dimgrey;
+            font-size: 1em;
+            color:dimgray;
+        }
     }
     button:hover {
         background-color: yellow;
@@ -58,63 +67,45 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+    @media only screen and (min-width:1224px){
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(21 , 1fr);
+        grid-template-rows: repeat(15, 1fr);  
+        grid-gap: 0.7rem;
+        position: relative;
+    }
 }
 
-
-
-// ul {
-//     @media only screen and (min-width:1224px){
-//     a {
-//         border: solid 1px transparent;
-//         display: inline-block;
-//         padding: 0.8rem;
-    
-//     }
-//     a:hover {
-//         border: solid 1px black;
-//     }
-// }
-// }
-// .admin {
-//     grid-column: 16/20; 
-//     grid-row: 2/3
-// }
-// .Nav {
-
-//     grid-row: 3/4;
-//     grid-column: 11/20;
-// }
-
-// .maintext {
-//     text-align: center;
-//     font-size: 1.6em;
-//     grid-row: 7/10;
-//     grid-column: 12/20;
-//     font-weight: 10;
-    
-// }
-// .decor {
-//     grid-column: 14/18;
-//     grid-row: 10/11
-// }
-
-// button {
-//     background-color: white;
-//     border: solid 1px dimgrey;
-//     font-size: 1em;
-//     color:dimgray;
-// }
-// button:hover {
-//     color:black;
-//     border:solid 1px black;
-// }
-
-// .butOne {
-//     grid-column: 13/16;
-//     grid-row: 11/13;
-// }
-// .butTwo {
-//     grid-column: 16/19;
-//     grid-row: 11/13
-// }
+.decor {
+    @media only screen and (min-width:1224px){
+        grid-column: 14/18;
+        grid-row: 9/11;
+        margin-left:1.4em;
+    }
+}
+ul {
+    @media only screen and (min-width:1224px){ 
+        a {
+            border: solid 1px transparent;
+            padding: 0.8rem
+        }
+        
+    }
+}
+.admin {
+    @media only screen and (min-width:1224px){
+        grid-column: 15/21; 
+        grid-row: 1/3;
+        display: flex;
+    } 
+}
+.Nav_But {
+    @media only screen and (min-width:1224px){
+        grid-column: 14/20;
+        grid-row: 11/13;
+        display: flex;
+    }   
+}
 
