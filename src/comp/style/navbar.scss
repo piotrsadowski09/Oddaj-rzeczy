@@ -116,4 +116,24 @@
     @media only screen and (max-width:1224px){
         display: none;
     }
+    grid-row: 2/4;
+    grid-column: 16/25;
+}
+.NavTwo {
+    @media only screen and (min-width:1224px){
+    display: flex;
+    list-style-type: none;
+        li {
+            border-bottom: solid 1px #D5D5D5;
+            font-size: 0.7em;
+            color:rgb(82, 80, 80);
+            padding:0.3em;
+            width: 7em;
+            transition-duration: 1s;
+        }
+        li:hover {
+            border-bottom: solid 1px black;
+        }
+    }
+    
 }

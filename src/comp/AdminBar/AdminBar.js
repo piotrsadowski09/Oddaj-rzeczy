@@ -11,7 +11,7 @@ class AdminBar extends React.Component {
             
                 <ul className={"admin"}>
                     <button className={"ButThree"}>Zaloguj sie</button>
-                    <button className={"ButFour"}> Zaloz konto</button>
+                    <button className={"ButThree"}> Zaloz konto</button>
                 </ul>
         )
     }

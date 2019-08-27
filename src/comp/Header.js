@@ -17,14 +17,14 @@ class Header extends React.Component {
             <div id="header" className={"showcase"}>
                 <NavBar />
             </div>  
-            <NavBarTwo/> 
                 <div className={"containerOne"}>
+                    <NavBarTwo/> 
                     <AdminBar />
                     <p className={"maintext"}>Zacznij pomagac! <br/>Oddaj niechciane rzeczy w zaufane rece!</p>
                     <div className={"decor"}></div>
                     <ul className={"Nav_But"}>
                         <button className={"butOne"} type="button">ODDAJ<br/> RZECZY</button>
-                        <button className={"butTwo"} type="button">ZORGANIZUJ<br/> ZBIORKE</button>
+                        <button className={"butOne"} type="button">ZORGANIZUJ<br/> ZBIORKE</button>
                     </ul>
                     
                 </div>

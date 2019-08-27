@@ -46,7 +46,7 @@ class NavBarTwo extends React.Component {
                                     smooth={true}
                                     offset={0}
                                     duration= {500}
-                                    > <li>Fundacje i organizacje</li>
+                                    > <li>Fundacje</li>
                                     </Link>
                                     <Link
                                     activeClass="active"

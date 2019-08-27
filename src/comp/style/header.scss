@@ -34,9 +34,9 @@ header {
     line-height: 2;
     @media only screen and (min-width:1224px){
         text-align: center;
-        font-size: 1.8em;
+        font-size: 1.5em;
         grid-row: 6/9;
-        grid-column: 13/21;
+        grid-column: 15/25;
         font-weight: 100;
     }
 }
@@ -48,19 +48,24 @@ button {
         padding:0.6em;
         margin: 1em;
         width: 10rem;
-        transition-duration: 0.49s;
-        @media only screen and (min-width:1224px){
-            background-color: white;
-            border: solid 1px dimgrey;
-            font-size: 1em;
-            color:dimgray;
-        }
+        transition-duration: 0.5s;        
     }
-    button:hover {
-        background-color: yellow;
-        color:black;
-        border:solid 1px black;
+ button:hover {
+     background-color: #fbce00;
+     color:black;
+     border:solid 1px #fbce00;
     }
+
+.ButThree {
+     @media only screen and (min-width:1224px){
+        background-color: white;
+        border: solid 1px #fbce00;
+        font-size: 1em;
+        color:dimgray;
+        padding:0.3em;
+        width:30em;
+            }
+        }     
 .containerOne {
     display:flex;
     flex-direction: column;
@@ -71,7 +76,7 @@ button {
         height: 100vh;
         width: 100vw;
         display: grid;
-        grid-template-columns: repeat(21 , 1fr);
+        grid-template-columns: repeat(25 , 1fr);
         grid-template-rows: repeat(15, 1fr);  
         grid-gap: 0.7rem;
         position: relative;
@@ -80,7 +85,7 @@ button {
 
 .decor {
     @media only screen and (min-width:1224px){
-        grid-column: 14/18;
+        grid-column: 16/20;
         grid-row: 9/11;
         margin-left:1.4em;
     }
@@ -89,23 +94,25 @@ ul {
     @media only screen and (min-width:1224px){ 
         a {
             border: solid 1px transparent;
-            padding: 0.8rem
+            padding: 0.3rem
         }
         
     }
 }
 .admin {
     @media only screen and (min-width:1224px){
-        grid-column: 15/21; 
+        grid-column: 18/25; 
         grid-row: 1/3;
         display: flex;
+
     } 
 }
 .Nav_But {
     @media only screen and (min-width:1224px){
-        grid-column: 14/20;
+        grid-column: 17/23;
         grid-row: 11/13;
         display: flex;
+        margin-left: -2.5em;
     }   
 }
 
