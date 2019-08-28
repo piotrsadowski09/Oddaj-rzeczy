@@ -63,7 +63,6 @@ button {
         font-size: 1em;
         color:dimgray;
         padding:0.3em;
-        width:30em;
             }
         }     
 .containerOne {
@@ -83,11 +82,13 @@ button {
     }
 }
 
-.decor {
+#head_decor {
     @media only screen and (min-width:1224px){
         grid-column: 16/20;
         grid-row: 9/11;
         margin-left:1.4em;
+        margin-top:2em;
+        margin-bottom:2em;
     }
 }
 ul {

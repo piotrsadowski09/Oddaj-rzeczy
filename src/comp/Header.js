@@ -21,7 +21,7 @@ class Header extends React.Component {
                     <NavBarTwo/> 
                     <AdminBar />
                     <p className={"maintext"}>Zacznij pomagac! <br/>Oddaj niechciane rzeczy w zaufane rece!</p>
-                    <div className={"decor"}></div>
+                    <div id="head_decor" className={"decor"}></div>
                     <ul className={"Nav_But"}>
                         <button className={"butOne"} type="button">ODDAJ<br/> RZECZY</button>
                         <button className={"butOne"} type="button">ZORGANIZUJ<br/> ZBIORKE</button>
