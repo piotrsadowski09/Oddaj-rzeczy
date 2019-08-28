@@ -2,9 +2,11 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color:rgb(82, 80, 80);
-    line-height: 2;
     margin-top: 2em;
     text-align: center;
+    @media only screen and (min-width:1224px){
+        margin-top:1em;
+    }
 }
 .foundations_box {
     font-family: 'Open Sans', sans-serif;
@@ -14,22 +16,31 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    @media only screen and (min-width:1224px){
+        height: 100vh;
+    }
 }
 .stuff_description {
-    @media only screen and (max-width: 1280px) {
-        display:none;
+    display:none;
+    @media only screen and (min-width: 1224px) {
+        display: unset;
+        flex:2;
+        
     }
 }
 .stuff_underline {
-    @media only screen and (max-width: 1280px) {
-        display:none;
+    display:none;
+    @media only screen and (min-width: 1224px) {
+        display:unset;
+        flex:1;
     }
 }
 
-.foundations {
+.foundations_type {
     margin:0.5em;
     padding:0.5em;
     border: 1px solid white;
+    border-bottom: solid 1px #D5D5D5;
     font-size: 1.3em;
     font-weight: lighter;
     text-align: center;
@@ -63,14 +74,50 @@
     line-height: 1.5em;
     text-align: center;
     padding: 1em 0;
-    margin:2em;
+    margin:1em;
 }
 .foundations_name {
     color:#3D3D3D;
     font-size: 1.3em;
+    flex:1;
 }
 .foundations_goals {
     color:rgb(82, 80, 80);
     font-style: italic;
     margin-bottom: 1em;
+    flex:1
+}
+
+.foundations_container{
+    @media only screen and (min-width:1224px){
+        display:flex;
+        align-items: center;
+        width: 90vw;
+        
+        
+    }
+}
+
+.left_con{
+    @media only screen and (min-width:1224px){
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        border: solid 1px red;
+        
+        
+        
+    }
+}
+
+.right_con{
+    @media only screen and (min-width:1224px){
+        flex:1;
+        display:flex;
+        flex-direction: column;
+        border: solid 1px red;
+        height: 100%
+       
+        
+    }
 }

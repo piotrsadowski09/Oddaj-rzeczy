@@ -11,12 +11,18 @@
         align-items: center;
         text-align: center
     }
+    @media only screen and (min-width:1224px){
+        height: 45vh;
+    }
     
 }
 .stats_number {
     font-size: 4em;
     text-align: center;
     padding: 0.4rem 0;
+    @media only screen and (min-width:1224px){
+        font-size:5em;
+    }
 }
 .stats_text{
     text-transform: uppercase;
@@ -26,9 +32,11 @@
     height:2em;
     font-weight: 100;
     margin-left: 10px;
-    margin-right: 10px
-    // sfsfdsfd
-    //asdsd
+    margin-right: 10px;
+    @media only screen and (min-width:1224px){
+        font-size:1.5em;
+    }
+    
 }
 .stats_description {
     font-size: 0.6em;
@@ -38,6 +46,11 @@
     margin-top: 7px;
     @media only screen and (max-width:384px){
         display:none;
+    }
+    @media only screen and( min-width:1224px){
+        font-size: 1em;
+        padding-left:2rem;
+        padding-right: 2rem;
     }
 
 }
